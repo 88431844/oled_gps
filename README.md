@@ -41,9 +41,19 @@
 
 GPS 陶瓷贴片天线需要让**方形陶瓷片的大平面朝天空**，PCB 和焊点那面朝下。不要让天线侧着、朝墙、贴着金属或被屏幕/支架/人体遮挡。
 
-![GPS 天线朝向示意图](gps_antenna_orientation.svg)
+![GPS 天线朝向示意图](assets/gps_antenna_orientation.svg)
 
 建议第一次冷启动时，把 GPS 天线放到窗外、阳台外沿或户外开阔处，等待 5–15 分钟。
+
+## 显示效果
+
+定位成功后，OLED 会切换到移动指南针页面，显示移动方向、航向角、速度和北京时间。
+
+![定位成功显示效果模拟](assets/gps_fixed_oled_mockup.png)
+
+下面是基于实拍 OLED 照片生成的定位成功效果预览：
+
+![实拍 OLED 定位成功效果预览](assets/gps_fixed_photo_mockup.jpg)
 
 ## Arduino IDE 配置
 
